@@ -112,7 +112,7 @@ function updateScore () {
 //when quiz is over this is the html for the page
 function renderResults () {
   if (score >= 4) {
-    $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>You're on fire!</h3><p>You got ${score} / 10</p><p>You're Smokey Bear's friend</p><button class="restartButton">Restart Quiz</button></div>`);
+    $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>You're on fire!</h3><p>You got ${score} / 5</p><p>You're Smokey Bear's friend</p><button class="restartButton">Restart Quiz</button></div>`);
   } else {
     $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>Almost there!</h3><p>You got ${score} / 5</p><p>Check out <a href="https://www.goodfires.org/">Goodfires.org to get schooled up!</a></p><button class="restartButton">Restart Quiz</button></div>`);
   }
