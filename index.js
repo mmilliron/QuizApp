@@ -31,7 +31,7 @@ function generateQuestion () {
 } else {
     renderResults();
     restartQuiz();
-    $('.questionNumber').text(10)
+    $('.questionNumber').text(5)
   }
 }
 
