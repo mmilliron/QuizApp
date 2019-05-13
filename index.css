@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Metrophobic', sans-serif;
-    background-color: #ffffff;
-    background: url(https://media.defense.gov/2009/Jan/30/2000632686/-1/-1/0/090129-F-9708M-322.JPG) fixed;
-    color: #363946;
+      background: url(https://media.defense.gov/2009/Jan/30/2000632686/-1/-1/0/090129-F-9708M-322.JPG) no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     font-family: 'Metrophobic', sans-serif;
+     background-color: #ffffff;
+     color: #363946;
 }
 /*header styling*/
 
